@@ -1,7 +1,8 @@
-const Button = ({onClick, children, ...props}) => {
+
+const Button = ({onClick, children, ...props}) => (
     <button onClick={onClick} {...props}>
         {children}
     </button>
-}
+);
 
 export default Button;
